@@ -13,6 +13,6 @@ class ElfRanger(Elf):
 
     def player_info(self) -> str:
         return (
-            f'Elf ranger {self.nickname}. {self.nickname} has bow of the '
-            f'{self._bow_level} level'
+            f"Elf ranger {self.nickname}. {self.nickname} has bow of the "
+            f"{self._bow_level} level"
         )
